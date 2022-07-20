@@ -19,7 +19,7 @@ public class CourierService {
         return courierRepo.save(courier);
     }
 
-    public Courier updateCourierCar(String courierId, String car){
+    public Courier updateCourier(String courierId, String car){
         Courier toUpdateCourier = courierRepo.findById(Long.parseLong(courierId)).orElseThrow();
         toUpdateCourier.setCar(car);
 

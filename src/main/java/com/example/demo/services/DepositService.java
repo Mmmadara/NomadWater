@@ -20,7 +20,7 @@ public class DepositService {
     }
 
 //    nothing to change
-//    public Deposit updateDepositCar(String DepositId){
+//    public Deposit updateDeposit(String DepositId){
 //        Deposit toUpdateDeposit = depositRepo.findById(Long.parseLong(DepositId)).orElseThrow();
 //
 //        return depositRepo.save(toUpdateDeposit);
